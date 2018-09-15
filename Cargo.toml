@@ -1,0 +1,11 @@
+[package]
+name = "R3040"
+version = "0.1.0"
+authors = ["mattcatz <14895427+MattCatz@users.noreply.github.com>"]
+
+[dependencies]
+
+[dependencies.stm32l1]
+version = "0.2.3"
+features = ["stm32l100", "rt"]
+
